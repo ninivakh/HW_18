@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Poppinss';
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+.body{
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar-brand>a{
+    font-family: 'Poppinss';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27.451px;
+    line-height: 27px;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    justify-content: flex-end !important;
+}
+.navbar>h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1B1B1B;
+    margin-left: 14px;
+    margin-right: 12px;
+}
+@media only screen and (max-width:720px) {
+    .navbar-brand>a{
+        font-size: 17.45px;
+    }
+}
+#img1{
+    Width: 100%;
+Height:810px;
+margin-left: -2%;
+}
+#text>h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #1B1B1B;
+}
+#text>h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #1B1B1B;
+}
+#text>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9B9B9B;
+}
+#border{
+border: 1px solid #9b9b9b5e;
+border-radius: 4px;
+height: 150px;
+width: 460px;
+}
+#bord1{
+    border-bottom: 1px solid #9b9b9b5e;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    height: 50px;
+}
+#bord2{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    height: 50px;
+}
+#bord1>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+#bord1>span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #1B1B1B ;
+}
+#bord2>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+#bord2>span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #1B1B1B ;
+}
+.numb{
+border: 2px solid #9b9b9b5e;
+border-radius: 100px;
+width: 155px;
+align-items: center;
+justify-content: center;
+}
+#numb{
+    padding: 20px 26px ;
+    border-left: 2px solid #9b9b9b5e;
+    border-right: 2px solid #9b9b9b5e;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+text-align: center;
+
+color: #1B1B1B;
+}
+#numb1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+color: #9B9B9B;
+}
+.buy{
+    align-items: center;
+border: 2px solid #FF0060;
+border-radius: 100px;
+width: 245px;
+height: 60px;
+}
+.buy>p{
+  margin: 0;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #FF0060;
+}
+#line{
+    height: 100%;
+    width: 1px;
+    background-color:#FF0060;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+#svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#idd>p{
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #9B9B9B;
+}
+#oval{
+    border-radius: 100%;
+    background-color: #ffff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+#crowd>p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#contact>a{
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #000000;
+
+}
+#fb{
+    gap: 20px;
+}
